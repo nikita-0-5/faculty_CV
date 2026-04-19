@@ -1,0 +1,541 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+     background:#fff; 
+     box-shadow: 0 0.125rem 0.25rem rgb(236, 236, 236); 
+    padding: 0;
+    margin: 0;
+    height: 75px;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Stick it to the top of the viewport */
+    width: 100%; /* Make it full width */
+    z-index: 100;
+    
+}
+
+.dark {
+    background-color: rgb(39, 38, 38);
+    color: aliceblue;
+}
+
+body {
+    margin: 0;
+    color: black;
+}
+.navbar ul{
+    display: flex;
+    
+}
+.navbar li {
+    
+    list-style: none;
+    font-size: 24px;
+    padding:20px;
+    
+}
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar li {
+        padding: 10px; /* Reduce the padding for smaller screens */
+        font-size: 18px; /* Optionally, you can also reduce the font size */
+    }
+}
+.banner{
+    height:330px;
+    background-image: url('./backe.jpg');
+    background-size: cover;
+    border-radius: 2%;
+background-image: cross-fade(20);
+    
+   
+    
+    
+}
+
+.navbar li:hover {
+    /* color: blue; */
+    background-color: rgb(236, 236, 236);
+
+    transition: background-color 0.35s; /* Transition duration */
+            transition-delay: 0.01s;
+
+
+
+}
+.scrolled {
+    background-color: rgba(238, 238, 238, 0.8); /* Change background when scrolled */
+}
+.profile{
+    display: flex;
+    justify-content: center;
+}
+.profile img{
+    border-radius: 50%;
+    width: 300px; /* Adjust the width as needed */
+    height: 300px; /* Adjust the height as needed */
+    padding-top:0px;
+    margin: -8.1875rem auto 0;
+    
+}
+.Title,.Sub{
+    /* font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+display: flex;
+font-size: 26px;
+/* text-decoration: underline; */
+justify-content: center;
+margin:0px;
+
+}
+.header{
+    height: 100vh;
+}
+
+.CV{
+    display: flex;
+    justify-content: center;
+}
+.fold{
+
+max-height: 50px;
+}
+.content{
+    overflow: auto;
+    max-height: 1000px;
+    
+
+}
+
+.Research,.patent,.ResearchProjects{
+    display: flex;
+    height: 100vh;
+    background: rgb(232, 232, 232,0.5);
+    /* margin:75px; */
+    margin-bottom: 35px;
+    margin-top: 35px;
+    border-radius: 10%;
+    
+    
+   
+}
+.Res,.pub,.HAOI,.HAA,.ProjHead,.edu h1{
+    text-align:left;
+    padding-left:30px;
+    font-size: 30px;
+}
+.ProjHead{
+    font-size: 18px;
+}
+
+button{
+    height: 30px;
+    width: 150px;
+    margin:20px;
+    
+    outline:none;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav li :hover{
+    color:rgb(46, 46, 194)
+}
+/* #research{
+    position: relative;
+} */
+
+table{
+    border-collapse: collapse;
+    width: 100%;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    text-align: left;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+table tr:nth-child(even) td {
+    background-color: #f2f2f2;
+  }
+  
+  table tr:hover td {
+    background-color: #cfc0c0;
+  }
+  .publications{
+    background-color: rgb(247, 242, 236,0.5);
+    margin:50px;
+    border-radius:10px;
+  }
+  .ResearchList{
+   margin:30px;
+  }
+
+.ResearchList,.pList li{
+ /* padding:30px; */
+ background: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,4%);
+    border: 1px solid rgba(0,0,0,9%);
+    border-radius: 3px;
+    padding:27px;
+    margin:27px;
+    list-style: none;
+
+ 
+}
+.ResTitle{
+    padding:20px;
+}
+
+.ResearchList ul :hover{
+    background-color:#d8a97b ;
+}
+
+.headIN{
+    display: grid;
+   padding:70px;
+    margin:40px;
+}
+.headIN input{
+    width: 50%;
+    height: 40px;
+    font-size: 1rem;
+}
+.headIN button{
+    border: none;
+    background-color:#333;
+    border-radius: 24;
+    color: #f2f2f2;
+}
+
+.Ed{
+    display: flex;
+    justify-content: center;
+    margin-left:300px;
+    margin-right:300px;
+    font-size: 20px;
+    
+    
+}
+.Ed h2{
+    font-size: 35px;
+}
+
+/* .ad{
+    display: flex;
+    padding-left: 75px;
+} */
+
+
+    
+   .pList li{
+        font-size: 17px;
+   }
+    
+
+.edu li{
+   
+ background-color:rgb(244, 244, 235);
+    box-shadow: 0 1px 4px rgba(0,0,0,4%);
+    border: 1px solid rgba(0,0,0,9%);
+    border-radius: 3px;
+    padding:35px;
+    margin:35px;
+
+    min-width: 100px;
+    list-style: none;
+    
+    margin-left:100px;
+    margin-right:100px;
+   
+}
+.contain{
+    padding-top:40px;
+    background-color:azure;
+    /* margin:50px; */
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border-radius: 12%;
+    background: rgb(232, 232, 232);
+   
+    }
+
+    .edu li :hover{
+       background-color: #dddddd;
+       transition: 0.3s;
+    }
+
+ 
+.patent,.assignInt{
+    display: flex;
+    height: 75vh;
+    background: rgb(232, 232, 232,0.45);
+    margin-top: 35px;
+    margin-bottom: 35px;
+    border-radius: 10%;
+}
+
+
+
+
+.patentList{
+    margin:20px;
+}
+.patent ul {
+    overflow: auto;
+}
+
+.assignInt{
+    height:50vh;
+}
+
+
+.HAA,.HAOI{
+margin:20px;
+font-size: 35px;
+}
+
+
+ li{
+    font-size:17px;
+}
+
+.ResearchProjects {
+    overflow-x: auto; /* Add this line to enable horizontal scrolling */
+    background: rgb(232, 232, 232,0.5);
+   margin-top: 35px;
+   margin-bottom: 35px;
+    border-radius: 10%;
+    padding: 20px; /* Add padding as needed */
+}
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+
+/* button{
+    border:none;
+    outline: none;
+    cursor:pointer;
+   background-color:#cfc0c0 
+    
+   
+} */
+
+
+@keyframes backgroundChange {
+    0% {
+        background-color: transparent;
+    }
+    100% {
+        background-color: rgb(236, 236, 236);
+    }
+}
+
+/* .navbar li:hover {
+    background-color: rgb(236, 236, 236);
+    animation: backgroundChange 0.35s ease-out; /* Use the defined animation */
+} */
+
+/* Add a fade-in animation for the banner */
+.banner {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+/* Add a slide-in animation for the profile image */
+.profile img {
+    transform: translateX(-100%);
+    animation: slideIn 1s ease-out forwards;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+/* Add a bounce animation for the title */
+.Title {
+    animation: bounce 1s ease-in-out infinite alternate;
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-5px);
+    }
+}
+
+/* Add a pulsing animation for the Load More button */
+button {
+    animation: pulse 5s ease-in-out infinite;
+}
+
+@keyframes pulse {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
+
+/* Add a heartbeat animation for the Title */
+
+
+/* Add a slide-up animation for the Education section */
+.Education,.patent,.HAA,.HAOI,.assignInt,.contain,.content {
+    opacity: 0;
+    transform: translateY(50px);
+    animation: slideUp 1s ease-in-out forwards;
+}
+
+@keyframes slideUp {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+
+
+/* Add a fade-in animation for the ResearchProjects section */
+.ResearchProjects {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+
+body {
+    zoom: 95%;
+}
+
+
+@media (max-width: 768px) {
+    /* Responsive styles for screens up to 768px wide */
+
+    .navbar {
+        flex-direction: row;
+        align-items: center;
+        
+    }
+
+    .navbar li {
+        /* padding: 10px; */
+        font-size: 18px;
+        
+    }
+
+    .banner {
+        height: 200px; /* Adjust the height for smaller screens */
+    }
+
+    .profile img {
+        width: 150px; /* Adjust the width for smaller screens */
+        height: 150px; /* Adjust the height for smaller screens */
+    }
+
+    .Title, .Sub {
+        font-size: 18px; /* Adjust the font size for smaller screens */
+    }
+
+
+
+    .Research, .patent, .ResearchProjects {
+        height: auto; /* Adjust the height for smaller screens */
+        flex-direction: column;
+    }
+
+
+
+    .patentList {
+        overflow-x: auto; /* Add horizontal scrolling for smaller screens */
+        margin: 10px; /* Add some margin to prevent leaking */
+    }
+
+    .assignInt {
+        height: auto; /* Adjust the height for smaller screens */
+        flex-direction: row;
+        
+    }
+
+    .Ed {
+        flex-direction: row;
+        margin-left: 20px; /* Adjust the margin for smaller screens */
+        margin-right: 20px; /* Adjust the margin for smaller screens */
+    }
+
+ 
+
+    .edu li {
+        margin-left: 20px; /* Adjust the margin for smaller screens */
+        margin-right: 20px; /* Adjust the margin for smaller screens */
+    }
+    body{
+        zoom:60%;
+    }
+   
+
+    .adm{
+         padding-right:50px;
+    }
+    .assignInt div{
+        margin-right: 30px;;
+    }
+    .Ed h2{
+        margin-left: 40px; /* Adjust the margin for smaller screens */
+    }
+}
+

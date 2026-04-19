@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dr. Deepti Bhardwaj | Ram Lal Anand College</title>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&family=Poppins:wght@200&family=Roboto+Mono:wght@100&family=Roboto:ital,wght@1,300&family=Tinos:ital@1&family=Work+Sans:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyN1BhMn3luELZl91I3z5q/1D61J5miC" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.1/dist/umd/popper.min.js" integrity="sha384-cYaa2bhA3aL+48t9gS2Q2AqNfE0T2wYCs7d/kblX0DAJz9J3EzF00kUKdI1YkvHl" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8sh+WyN1BhMn3luELZl91I3z5q/1D61J5miC" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="style.css">
+<script src="script.js"></script>
+
+<style>
+/* ── Research ID buttons ── */
+.research-ids {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 16px 20px 8px;
+}
+.research-ids a {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 8px 14px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 13px;
+    font-weight: 700;
+    text-decoration: none;
+    white-space: nowrap;
+    letter-spacing: 0.5px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    transition: all 0.25s;
+}
+.research-ids a:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    filter: brightness(1.1);
+    color: #fff;
+    text-decoration: none;
+}
+
+/* ── Contact info block ── */
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 10px 30px 6px;
+    font-size: 14px;
+    color: #555;
+}
+.contact-info span {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+/* ── Section headings ── */
+.section-heading {
+    font-family: Cambria, Georgia, serif;
+    font-size: 22px;
+    font-weight: 700;
+    color: #333;
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 8px;
+    margin-bottom: 16px;
+}
+
+/* ── Guidance block ── */
+.guidance-block {
+    background: #f9f9f9;
+    border-left: 4px solid #555;
+    padding: 12px 18px;
+    margin: 8px 0;
+    border-radius: 4px;
+    font-size: 15px;
+    line-height: 1.7;
+}
+
+/* ── Conference list ── */
+.conf-list {
+    list-style: disc;
+    padding-left: 22px;
+}
+.conf-list li {
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 8px;
+    color: #333;
+}
+.conf-subheading {
+    font-size: 16px;
+    font-weight: 700;
+    color: #555;
+    margin: 16px 0 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+/* ── Admin assignments ── */
+.admin-list {
+    list-style: disc;
+    padding-left: 22px;
+}
+.admin-list li {
+    font-size: 15px;
+    line-height: 1.8;
+    margin-bottom: 6px;
+}
+
+/* General section wrapper */
+.cv-section {
+    padding: 30px 40px;
+    background: #fff;
+}
+.cv-section:nth-child(even) {
+    background: #f7f7f7;
+}
+</style>
+
+<body>
+
+<div class="main-head">
+    <header>
+        <div>
+            <div class="banner">
+                <nav>
+                    <ul class="navbar">
+                        <li><a href="./">About</a></li>
+                        <li><a href="#Edu">Education</a></li>
+                        <li><a href="#patent">Associations</a></li>
+                        <li><a href="#Res">Research &amp; Publications</a></li>
+                        <li><a href="#conf">Conferences</a></li>
+                        <li><a href="#Proj">Other Activities</a></li>
+                    </ul>
+                </nav>
+            </div>
+
+            <div class="profile">
+                <img src="./Profile_Deepti.png" alt="profile">
+            </div>
+            <div class="Title">
+                <h1>Dr. Deepti Bhardwaj</h1>
+            </div>
+            <div class="Sub">
+                <h2>Associate Professor | Department of English <br> Ram Lal Anand College, University of Delhi</h2>
+
+            </div>
+            <div class="CV">
+                <a href="ProfDeeptiCV.pdf">
+                    <img class="fold" src="./CV.png" alt="Download CV">
+                </a>
+            </div>
+
+            <!-- Contact Details -->
+            <div class="contact-info">
+                <span>📧 <a href="mailto:deeptibhardwaj.eng@rla.du.ac.in" style="color:#555;">deeptibhardwaj.eng@rla.du.ac.in</a></span>
+                <span>📍 97, Mall Apartments, Mall Road, Delhi 110054</span>
+                <span>📞 9212132420</span>
+            </div>
+
+            <!-- Research ID Buttons -->
+            <div class="research-ids">
+                <a href="https://scholar.google.com/citations?user=w1-8SV8AAAAJ&hl=en" target="_blank" style="background:#4285F4;">🎓 GOOGLE SCHOLAR</a>
+                <a href="https://www.researchgate.net/profile/Deepti-Bhardwaj-3" target="_blank" style="background:#00CCBB;">🔬 RESEARCHGATE</a>
+                <a href="https://orcid.org/0009-0008-6919-0320" target="_blank" style="background:#A6CE39;">🆔 ORCID</a>
+                <a href="https://vidwan.inflibnet.ac.in/profile/566945" target="_blank" style="background:#6c757d;">👤 VIDWAN</a>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- ══════════ EDUCATION & EXPERIENCE ══════════ -->
+    <div class="Education" id="Edu">
+        <div class="Ed">
+            <h2>Education</h2>
+            <hr>
+            <h2>Experience</h2>
+        </div>
+
+        <div class="contain">
+            <ul class="edu">
+                <h1>Education</h1>
+                <li>
+                    <span class="degree">Ph.D</span>
+                    <span class="institution">Dept of English, University of Delhi</span>
+                    <span class="year">2020</span>
+                </li>
+                <li>
+                    <span class="degree">M.Phil</span>
+                    <span class="institution">Dept of English, University of Delhi</span>
+                    <span class="year">2009</span>
+                </li>
+                <li>
+                    <span class="degree">MA / MSc</span>
+                    <span class="institution">Dept of English, University of Delhi</span>
+                    <span class="year">2007</span>
+                </li>
+
+                <h1>Career Profile</h1>
+                <li>
+                    <strong>Associate Professor</strong> — November 2023 onwards<br>
+                    Ram Lal Anand College, University of Delhi
+                </li>
+                <li>
+                    <strong>Assistant Professor</strong> — 2013 to November 2023<br>
+                    Ram Lal Anand College, University of Delhi
+                </li>
+                <li>
+                    <strong>Assistant Professor</strong> — 2009 to 2012<br>
+                    St. Stephen's College, University of Delhi
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- ══════════ AREAS OF INTEREST & ADMIN ══════════ -->
+    <div class="Ed" id="Ed">
+        <h2>Area of Interest</h2>
+        <hr>
+        <h2>Administrative Assignments</h2>
+    </div>
+
+    <div class="assignInt">
+        <div style="float:left;width:50%">
+            <div><h2 class="HAOI">Areas of Interest / Specialization</h2></div>
+            <ul class="pList">
+                <li>Indian Literature</li>
+                <li>Visual Arts</li>
+            </ul>
+        </div>
+        <div style="float:right;width:50%">
+            <div><h2 class="HAA">Administrative Assignments</h2></div>
+            <ul class="admin-list">
+                <li>Convenor: SPIC MACAY</li>
+                <li>Convenor: Abhivyakti (English Literary Society)</li>
+                <li>Conference Organised: The Body of Lies, 2015, RLA</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- ══════════ RESEARCH GUIDANCE ══════════ -->
+    <div class="cv-section" id="guidance" style="clear:both;">
+        <p class="section-heading">Research Guidance</p>
+        <div class="guidance-block">
+            <strong>Ph.D. Supervision:</strong><br>
+            <em>Pioneer Girl: Colonial Girlhood in Bessie Marchant's Adventure Fiction</em><br>
+            Aishwarya Singh, Department of English, University of Delhi
+        </div>
+    </div>
+
+
+    <!-- ══════════ RESEARCH & PUBLICATIONS ══════════ -->
+    <div class="Research" id="Res">
+        <div class="ProjHead">
+            <h1>Research &amp; Publications</h1>
+        </div>
+        <div class="content">
+            <ul class="contList">
+                <li>
+                    <h3>Book Review of <em>Meanwhile Upriver</em> by Chatura Rao, in 'Book Review', 2009.</h3>
+                </li>
+                <li>
+                    <a href="https://www.fortell.org/wp-content/uploads/2021/01/28-fortell-jan-2014-2nd-copy.pdf">
+                        <h3>'Interdisciplinarity in Research', <em>Fortell</em>, Jan 2014. (ISSN 2229-6557)</h3>
+                    </a>
+                </li>
+                <li>
+                    <h3>'Manushi: A Journal for Women and Society But not "Feminist"', <em>BSSS Journal of Social Work</em>, Bhopal, Jan 2015. (ISSN 0975-251X)</h3>
+                </li>
+                <li>
+                    <h3>'Skopoi of a Translator: Assessing Vermeer's Skopos Theory', <em>Fortell</em>, Jan 2015. (ISSN 2229-6557)</h3>
+                </li>
+                <li>
+                    <h3>'Problematising the Popularity of Chetan Bhagat', <em>Academia</em> Vol I, Jan-Jun 2016. (ISSN 2395-0161)</h3>
+                </li>
+                <li>
+                    <h3>'The Sand Libraries of Timbaktu', <em>The Book Review</em> Vol XLI No 4, Apr 2017.</h3>
+                </li>
+                <li>
+                    <h3>Book: <em>Business English</em> (Dreamtech Press, 2019)</h3>
+                </li>
+                <li>
+                    <h3>Book: <em>Business Communication</em> (Dreamtech Press, 2020)</h3>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- ══════════ CONFERENCE PRESENTATIONS (NEW) ══════════ -->
+    <div class="cv-section" id="conf">
+        <p class="section-heading">Conference Organisation / Presentations</p>
+
+        <p class="conf-subheading">International Presentations</p>
+        <ul class="conf-list">
+            <li>'A Teller of Tales: Literature and Culture in the Paintings of M. F. Husain' — Invited Lecture, Two-day International Conference on <em>Cultures in Transformation: A Subcontinental Experience</em>, Department of History, Ram Lal Anand College, University of Delhi. March 2024.</li>
+            <li>'Journey of Chandni Chowk: A Historical Public Sphere' — Invited Paper, Three-day International Conference, Motilal Nehru College. 2022.</li>
+            <li>'Understanding Changing Cityscape Through Lifewriting' — Annual International Conference, Germanic and Romance Studies Department. 2013.</li>
+            <li>'Problematising the Popularity of Chetan Bhagat' — Annual International Conference, Germanic and Romance Studies Department. 2010.</li>
+            <li>'Rural Spaces in Raag Darbaari and Godaan' — Annual International Conference, Germanic and Romance Studies Department. 2009.</li>
+        </ul>
+
+        <p class="conf-subheading">National Presentations</p>
+        <ul class="conf-list">
+            <li>'A Teller of Tales: Literature and Culture in the Paintings of M. F. Husain' — Invited Lecture, Two-Day National Seminar on <em>Indian Visual Cultures through Paint, Print, and Digital Media: Shifting Patterns and Shaping Possibilities</em>, Malaviya Moolya Anusheelan Kendra, BHU. January 2025.</li>
+            <li>'Reading Visuality: Paintings as Literature' — Invited Lecture (Keynote), Two-week workshop on <em>Emerging Trends in Interdisciplinary Studies</em>, DQAC, Department of English, Banaras Hindu University. 2023.</li>
+            <li>'Indian English Literature' — Invited Lecture, Two-day Interdisciplinary National Seminar, Shri Lal Bahadur Shastri National Sanskrit University. 2022.</li>
+            <li>'Peter Brook's Lear' — National Conference organised by Shakespeare Society of India. 2011.</li>
+            <li>'Representation of Women in Contemporary Media' — UGC Seminar, Bhim Rao Ambedkar College. 2011.</li>
+        </ul>
+    </div>
+
+
+    <!-- ══════════ ASSOCIATIONS ══════════ -->
+    <div class="Ed">
+        <h2>Associations</h2>
+    </div>
+
+    <div class="patent" id="patent">
+        <div class="ProjHead">
+            <h2>Member of</h2>
+        </div>
+        <ul class="pList">
+            <li><a href="https://www.fortell.org/">Fortell</a></li>
+            <li><a href="https://shakespearesocietyofindia.wordpress.com/">Shakespeare Society of India</a></li>
+        </ul>
+    </div>
+
+
+    <!-- ══════════ OTHER ACTIVITIES ══════════ -->
+    <div class="ResearchProjects" id="Proj">
+        <div class="ProjHead">
+            <h2>Other Activities</h2>
+        </div>
+        <div class="projList">
+            <ul class="pList">
+                <li><h3>Coordinator of Certificate Course in Renaissance Art</h3></li>
+                <li><h3>Co-coordinator of Certificate Course in Hospitality and Tourism</h3></li>
+                <li><h3>Convenor of Certificate Course in History of English Literature, 2022 and 2023</h3></li>
+            </ul>
+        </div>
+    </div>
+
+</div><!-- end main-head -->
+
+</body>
+</html>
