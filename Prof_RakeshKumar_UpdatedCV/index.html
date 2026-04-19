@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200|Roboto:200">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Times New Roman:300,400|Poppins:300,400,500|Garamond:200,300,400|Cambria:200,300,400|Lato:200,300|Constantia:300,400|Helvetica:200,300,400">
+    <script src="index.js" defer></script>
+    <title>Prof | Rakesh Kumar</title>
+</head>
+
+<body>
+    <div class="hamburger">
+        <input type="checkbox" name="check" id="check" class="hamburger__check">
+        <label for="check" class="hamburger__label">&nbsp;</label>
+        <div class="hamburger__background">&nbsp;</div>
+        <div class="hamburger__content">
+            <ul class="hamburger__list">
+                <li class="hamburger__list-item"><a href="#profile" class="hamburger__link">Profile</a></li>
+                <li class="hamburger__list-item"><a href="#education" class="hamburger__link">Education</a></li>
+                <li class="hamburger__list-item"><a href="#experience" class="hamburger__link">Experience</a></li>
+                <li class="hamburger__list-item"><a href="#publications" class="hamburger__link">Publications</a></li>
+                <li class="hamburger__list-item"><a href="#books" class="hamburger__link">Books</a></li>
+                <li class="hamburger__list-item"><a href="#chapters" class="hamburger__link">Chapters</a></li>
+                <li class="hamburger__list-item"><a href="#projects" class="hamburger__link">Projects</a></li>
+                <li class="hamburger__list-item"><a href="#book" class="hamburger__link">Presentations</a></li>
+                <li class="hamburger__list-item"><a href="#awards" class="hamburger__link">Awards</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <header class="college" id="college">
+            <ul class="college__list">
+                <li class="college__list__item"><a class="college__list__link" href="#profile">Profile</a></li>
+                <li class="college__list__item"><a class="college__list__link" href="#education">Education</a></li>
+                <li class="college__list__item"><a class="college__list__link" href="#experience">Experience</a></li>
+                <li class="college__list__item"><a class="college__list__link" href="#publications">Publications</a></li>
+                <li class="college__list__item"><a class="college__list__link" href="#books">Books</a></li>
+                <li class="college__list__item"><a class="college__list__link" href="#chapters">Chapters</a></li>
+                <li class="college__list__item"><a class="college__list__link" href="#projects">Projects</a></li>
+                <li class="college__list__item"><a class="college__list__link" href="#book">Presentations</a></li>
+                <li class="college__list__item"><a class="college__list__link" href="#awards">Awards</a></li>
+            </ul>
+        </header>
+
+        <!-- ==================== PROFILE ==================== -->
+        <section class="profile" id="profile">
+            <div class="profile__container">
+                <img src="Rakesh_kumar.jpg" alt="profile picture" class="profile__photo">
+                <p class="profile__name">Prof. Rakesh Kumar</p>
+                <p class="profile__designation">Professor – Department of History</p>
+                <a href="rakesh_kumar.pdf" download="resume" class="btn">DOWNLOAD CV</a>
+            </div>
+            <div class="contact" id="contact">
+                <div class="contact__details">
+                    <p class="contact__heading">Contact Details</p>
+                    <div class="contact__details-address detail__container"
+                        onclick="window.open('https://maps.app.goo.gl/NHaaGLxjEmFokiB9A','_blank')">
+                        <svg class="contact__icon">
+                            <use xlink:href="../icomoon/symbol-defs.svg#icon-location-pin"></use>
+                        </svg>
+                        <span class="contact__details__address detail">Ram Lal Anand College, New Delhi – 21</span>
+                    </div>
+                    <div class="contact__details-email detail__container"
+                        onclick="window.open('mailto:rakeshkumar.hist@rla.du.ac.in','emailWindow')">
+                        <svg class="contact__icon">
+                            <use xlink:href="../icomoon/symbol-defs.svg#icon-mail"></use>
+                        </svg>
+                        <span class="contact__details__email detail">rakeshkumar.hist@rla.du.ac.in</span>
+                    </div>
+                    <div class="contact__details-phone detail__container">
+                        <svg class="contact__icon">
+                            <use xlink:href="../icomoon/symbol-defs.svg#icon-phone"></use>
+                        </svg>
+                        <span class="contact__details__phone detail">+91-9810281549 &nbsp;|&nbsp; Office: 011-24112557</span>
+                    </div>
+                </div>
+                <div class="contact__details">
+                    <p class="contact__heading">Online Profiles</p>
+                    <div class="contact__details-address detail__container"
+                        onclick="window.open('https://scholar.google.com/citations?hl=en&view_op=list_works&user=32Rdm2IAAAAJ','_blank')">
+                        <svg class="contact__icon">
+                            <use xlink:href="../icomoon/symbol-defs.svg#icon-location-pin"></use>
+                        </svg>
+                        <span class="contact__details__address detail">Google Scholar Profile</span>
+                    </div>
+                    <div class="contact__details-address detail__container"
+                        onclick="window.open('https://www.researchgate.net/profile/Rakesh-Kumar-362','_blank')">
+                        <svg class="contact__icon">
+                            <use xlink:href="../icomoon/symbol-defs.svg#icon-location-pin"></use>
+                        </svg>
+                        <span class="contact__details__address detail">ResearchGate Profile</span>
+                    </div>
+                    <div class="contact__details-address detail__container"
+                        onclick="window.open('https://orcid.org/0000-0003-3658-1567','_blank')">
+                        <svg class="contact__icon">
+                            <use xlink:href="../icomoon/symbol-defs.svg#icon-location-pin"></use>
+                        </svg>
+                        <span class="contact__details__address detail">ORCID: 0000-0003-3658-1567</span>
+                    </div>
+                    <div class="contact__details-address detail__container"
+                        onclick="window.open('https://vidwan.inflibnet.ac.in/profile/567039','_blank')">
+                        <svg class="contact__icon">
+                            <use xlink:href="../icomoon/symbol-defs.svg#icon-location-pin"></use>
+                        </svg>
+                        <span class="contact__details__address detail">VIDWAN: 567039
+</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== EDUCATION ==================== -->
+        <section class="education" id="education">
+            <div class="education__heading">Education Qualification</div>
+            <div class="education__container">
+                <div class="education__1">
+                    <p class="course">PhD</p>
+                    <p class="year">2000</p>
+                    <p class="institution">Department of History, University of Delhi</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== EXPERIENCE ==================== -->
+        <section class="experience" id="experience">
+            <div class="careerProfile">
+                <h3 class="careerProfile__heading">Career Profile</h3>
+                <ul class="careerProfile__list">
+                    <li><b class="-u--primary">Professor</b> – Department of History, Ram Lal Anand College, University of Delhi</li>
+                    <li><b class="-u--primary">Vice Principal</b> – Ram Lal Anand College, 2020–2022</li>
+                </ul>
+            </div>
+            <div class="adminAssignment">
+                <h3 class="adminAssignment__heading">Administration Assignment</h3>
+                <ul class="adminAssignment__list">
+                    <li><b class="-u--primary">College Bursar</b> – 2006–2012, 2018–2020</li>
+                    <li><b class="-u--primary">Convener</b> – Building cum Infrastructure Committee</li>
+                    <li><b class="-u--primary">Coordinator</b> – NAAC Accreditation Committee</li>
+                    <li><b class="-u--primary">Convener</b> – Students Union Advisory Committee</li>
+                    <li><b class="-u--primary">Convener and Advisor</b> – SPICMACAY (RLA Chapter)</li>
+                    <li><b class="-u--primary"> Vice Principal</b> – R L A College (2020-2022)</li>
+                    <li><b class="-u--primary">Member</b> – Screening Committee for MACP of Non-teaching Staff</li>
+                    <li><b class="-u--primary">Convener</b> – Fact Finding Committee</li>
+                </ul>
+            </div>
+            <div class="specialization">
+                <h3 class="specialization__heading">Areas of Specialization</h3>
+                <ul class="specialization__list">
+                    <li>Medieval Indian History</li>
+                    <li>Ancient and Medieval World History</li>
+                    <li>Sustainable Tourism</li>
+                </ul>
+            </div>
+            <div class="specialization subjects__taught">
+                <h3 class="specialization__heading">Subjects Taught</h3>
+                <ul class="specialization__list">
+                    <li>Social Formations and Cultural Patterns of Ancient and Medieval World</li>
+                    <li>History of India (c 1500–1600)</li>
+                    <li>History of India (c 1600–1750)</li>
+                    <li>History of India (c 1550–1700)</li>
+                    <li>Understanding Heritage</li>
+                    <li>Cultures in the Indian Subcontinent</li>
+                    <li>Medieval Societies</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ==================== PUBLICATIONS (Papers) ==================== -->
+        <section class="publications" id="publications">
+            <h2 class="heading__2 -u-ptop publications__heading">Publications</h2>
+            <ul class="publications__list">
+                <li><b class="-u--primary">Kumar, Rakesh</b> (2017). Profiling a City through Regional Sources: A Study of the Khatapatras (sale deeds) of Medieval Ahmadabad. <em>Research Review Journal</em>, Vol 2 Issue 12, pp 236–239.</li>
+                <li><b class="-u--primary">Kumar, Rakesh</b> (2018). मध्यकालीन बंगाल की मंगलकाव्य परंपरा: एक प्रादेशिक ऐतिहासिक स्रोत के रूप में. <em>AMAR An Interdisciplinary Research Journal</em>, Vol 4 Issue-3, pp 50–55.</li>
+                <li><b class="-u--primary">Pande, Prabhas; Kumar, Rakesh and Sachdev, Rajesh</b> (2018). Geo-Tourism in Kumaon Region of Uttarakhand, India – A Latent Catalyst for Business, Employment and Economic Growth. <em>Research Review Journal</em>, Vol 3 Issue 3, pp 383–94.</li>
+                <li><b class="-u--primary">Kumar, Rakesh</b> (2018). Ahmadabad and its Suburbs during the Seventeenth and Eighteenth Centuries: A Study in Reciprocity and Urban Growth. <em>EDU WORLD</em>, Vol 12 No 4, pp 241–49.</li>
+                <li><b class="-u--primary">Kumar, Rakesh</b> (2018). Slavery in Ancient Rome: Recent Reflections. <em>EDU WORLD</em>, Vol 12 No 5, pp 149–53.</li>
+                <li><b class="-u--primary">Kumar, Rakesh</b> (2019). मध्यकालीन दक्षिण भारत के नायक राज्य: राज्य संरचना के नवीन रूप. <em>International Journal of Research And Analytical Reviews</em>, Vol 6 Issue 1, pp 471–76.</li>
+                <li><b class="-u--primary">Gupta, Seema; Mazumder, Mukta Dutta; Kumar, Rakesh; et al.</b> (2020). Migration from the Hills and Sustainable Remedial Measures: Case Study of Patiya Village Cluster in Almora District. <em>International Journal of Multidisciplinary Educational Research</em>, Vol 9 Issue-12(3), pp 171–194.</li>
+                <li><b class="-u--primary">Kumar, Rakesh</b> (2021). औरंगजेब की धार्मिक-सांस्कृतिक नीतियों का अध्ययन: सन्दर्भ- मन्दिर, संगीत और ब्रज साहित्य. <em>Shodh Disha</em>, Vol 53 No 2, pp 172–77.</li>
+                <li><b class="-u--primary">Kumar, Rakesh</b> (2021). मुगल चित्रकला में रूपक एवं प्रतीकात्मकता: जहाँगीरकालीन चित्रकला के सन्दर्भ में. <em>Shodh Sarita</em>, Vol 8 Issue 29, pp 142–45.</li>
+                <li><b class="-u--primary">Kumar, Rakesh</b> (2021). Articulating Authority and Ideology through Built Structures: A Study of the Monuments of Akbar and Shah Jahan. <em>The Journal of Oriental Research, Madras</em>, Vol XCH-XX, pp 39–48.</li>
+                <li><b class="-u--primary">Kumar, Rakesh</b> (2021). ब्रज साहित्यिक रचनाओं में इतिहासबोध: केशवदास के 'ऐतिहासिक' काव्यों के सन्दर्भ में. <em>Shodh Disha</em>, pp 61–66.</li>
+                <li><b class="-u--primary">Pande, Prabhas; Kumar, Rakesh; Sachdev, Rajesh; Gupta, Seema; et al.</b> (2021). Soil Nutrient Evaluation and Crop Management for Sustainable Growth of Patiya Village Cluster in Almora, Uttarakhand. <em>Current World Environment</em>, 16(3), pp 818–835.</li>
+                <li><b class="-u--primary">Kumar, Rakesh</b> (2022). Labourers and Artisans in Seventeenth Century Ahmadabad. <em>Studies in People's History</em>, Volume 9 Issue 1, pp 22–30.</li>
+            </ul>
+        </section>
+
+        <!-- ==================== BOOKS ==================== -->
+        <section class="patentsPubs" id="books">
+            <div class="patentsPubs__container">
+                <h2 class="heading__2 -u--white -u-ptop">Books Published</h2>
+                <div class="patentsPubs__content__container">
+                    <h3 class="patentsPubs__heading">Ancient and Medieval World: From Evolution of Humans to the Crisis of Feudalism</h3>
+                    <ul class="patentsPubs__list">
+                        <li>Author: Kumar, Rakesh</li>
+                        <li>Publisher: Sage Publications, New Delhi</li>
+                        <li>Year: 2018</li>
+                    </ul>
+                </div>
+                <div class="patentsPubs__content__container">
+                    <h3 class="patentsPubs__heading">Social Formations in the Ancient World. From Evolution of Humans to the Greek Civilisation</h3>
+                    <ul class="patentsPubs__list">
+                        <li>Author: Kumar, Rakesh</li>
+                        <li>Publisher: Routledge Publications, New York</li>
+                        <li>Year: 2024</li>
+                    </ul>
+                </div>
+                <div class="patentsPubs__content__container">
+                    <h3 class="patentsPubs__heading">Social Formations in the Medieval World. From Roman Civilisation till the Crisis of Feudalism</h3>
+                    <ul class="patentsPubs__list">
+                        <li>Author: Kumar, Rakesh</li>
+                        <li>Publisher: Routledge Publications, New York</li>
+                        <li>Year: 2024</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== BOOK CHAPTERS ==================== -->
+        <section class="publications" id="chapters">
+            <h2 class="heading__2 -u-ptop publications__heading">Chapters in Books</h2>
+            <ul class="publications__list">
+                <li><b class="-u--primary">Kumar, Rakesh</b> (1993). मुगल साम्राज्य: एक अवधारणात्मक संरचना. In Verma, H C (ed.), <em>मध्य कालीन भारत, खंड 2</em>, Hindi Madhyam Karyanvan Nideshalay, University of Delhi, pp 284–301.</li>
+                <li><b class="-u--primary">Kumar, Rakesh</b> (1993). मुगलकालीन मुद्रा प्रणाली. In Verma, H C (ed.), <em>मध्य कालीन भारत, खंड 2</em>, Hindi Madhyam Karyanvan Nideshalay, University of Delhi, pp 406–416.</li>
+                <li><b class="-u--primary">Kumar, Rakesh</b> (1993). मुगलकालीन भारत में रंगसाज़ी की कला. In Verma, H C (ed.), <em>मध्य कालीन भारत, खंड 2</em>, Hindi Madhyam Karyanvan Nideshalay, University of Delhi, pp 512–520.</li>
+                <li><b class="-u--primary">Kumar, Rakesh</b> (2009). Indo-Persian Literature: Amir Khusrau's Works. School of Open Learning, University of Delhi, pp 40–49.</li>
+                <li><b class="-u--primary">Kumar, Rakesh</b> (2009). Urdu Poetry and Prose: Mirza Ghalib. School of Open Learning, University of Delhi, pp 50–60.</li>
+                <li><b class="-u--primary">Kumar, Rakesh</b> (2013). हिन्द-फ़ारसी साहित्य: अमीर खुसरो की कृतियां. In Thakran, RC; Shivdutt and Kumar, Sanjay (eds), <em>भारतीय उपमहाद्वीप की संस्कृतियां, भाग 1</em>, Hindi Madhyam Karyanvan Nideshalay, University of Delhi, pp 122–138.</li>
+                <li><b class="-u--primary">Kumar, Rakesh</b> (2013). उर्दू पद्य एवं गद्य: मिर्जा ग़ालिब. In Thakran, RC; Shivdutt and Kumar, Sanjay (eds), <em>भारतीय उपमहाद्वीप की संस्कृतियां, भाग 1</em>, Hindi Madhyam Karyanvan Nideshalay, University of Delhi, pp 139–160.</li>
+                <li><b class="-u--primary">Kumar, Rakesh</b> (2014). Ahmadabad: Its Market and Urban Linkages in the Seventeenth Century. In Sharma, Yogesh and Malekandathil, Pius (eds), <em>Cities in Medieval India</em>, Primus, New Delhi, pp 279–296.</li>
+                <li><b class="-u--primary">Kumar, Rakesh</b> (2015). Mirza Ghalib – His Contributions to Urdu Literature. In Kumar, Nirmal (ed), <em>Essays in Medieval Delhi</em>, Research India Press, New Delhi, pp 379–391.</li>
+                <li><b class="-u--primary">Kumar, Rakesh</b> (2020). Mansabdari and Jagirdari System Under the Mughals. In <em>School of Open Learning Study Material</em>, University of Delhi, pp 113–128.</li>
+                <li><b class="-u--primary">Kumar, Rakesh and Kumar, Sarbani</b> (2020). Imperial Ideology of the Mughals. In <em>School of Open Learning Study Material</em>, University of Delhi, pp 128–138.</li>
+            </ul>
+        </section>
+
+        <!-- ==================== PROJECTS ==================== -->
+        <section class="patentsPubs" id="projects">
+            <div class="patentsPubs__container">
+                <h2 class="heading__2 -u--white -u-ptop">Research Projects</h2>
+                <div class="patentsPubs__content__container">
+                    <h3 class="patentsPubs__heading">Enhancement of Livelihood Opportunities – NMHS, GOI (2019–2023) <em style="font-size:1.4rem;">[Completed]</em></h3>
+                    <ul class="patentsPubs__list">
+                        <li>Title: Enhancement of Livelihood Opportunities through Sustainable Development using Multifaceted Support Plans for Village Cluster around Patiya in Takula Block, Almora District, Uttarakhand</li>
+                        <li>Total Grant: Rs. 1.99 Crores (Medium Grant)</li>
+                        <li>Funding Agency: NMHS, under Ministry of EF&amp;CC, GOI</li>
+                        <li>Status: CO-PI</li>
+                        <li>Key Areas: Human Wildlife Conflict minimisation, Geo-tourism model development, Augmentation of agriculture and livelihood opportunities</li>
+                    </ul>
+                </div>
+                <div class="patentsPubs__content__container">
+                    <h3 class="patentsPubs__heading">Development of Sustainable Geotourism and Global Geopark in Pithoragarh – NMHS, GOI (2024–2027) <em style="font-size:1.4rem;">[Ongoing]</em></h3>
+                    <ul class="patentsPubs__list">
+                        <li>Title: Development of Sustainable Geotourism and Global Geopark in Pithoragarh and Neighboring Districts of Kumaon Himalayas</li>
+                        <li>Total Grant: Rs. 1.85 Crores (Medium Grant)</li>
+                        <li>Funding Agency: NMHS, under Ministry of EF&amp;CC, GOI</li>
+                        <li>Status: PI</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== PRESENTATIONS ==================== -->
+        <section class="book" id="book">
+            <h2 class="heading__2 -u-ptop book__heading">Conference Organization / Presentations</h2>
+            <ul class="book__list">
+                <li>Orientation Programme for History Teachers – On Indian History and Culture (FC) – FYUP (2013–14), University of Delhi.</li>
+                <li>Workshop on History of Mughal India (c 1500–1600) and (c 1600–1750) – Department of History, University of Delhi.</li>
+                <li>National Conference on Natural and Cultural Eco Systems – 2021, organised by Maharaja Agrasen College, University of Delhi.</li>
+                <li>Invited Lecture – 'Sources for Mughal Indian History', Aryabhatta College, University of Delhi (2016).</li>
+                <li>Invited Lecture (2) – 'Nomadic Pastoralists in the Ancient World', Lady Shri Ram College for Women, University of Delhi (2019).</li>
+                <li>Invited Lecture / Webinar – 'Mughal Painting', Satyawati Co-educational College, University of Delhi (2020).</li>
+                <li>Invited Lecture – 'Neolithic Cultures', Aryabhatta College, University of Delhi (2024).</li>
+            </ul>
+        </section>
+
+        <!-- ==================== AWARDS ==================== -->
+        <section class="awards" id="awards">
+            <h2 class="awards__heading">Awards and Distinctions</h2>
+            <ul class="awards__list">
+                <li>Teaching Excellence Award – University of Delhi, 2014</li>
+            </ul>
+        </section>
+
+    </div>
+</body>
+
+</html>
