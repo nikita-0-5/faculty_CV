@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:200|Roboto:200">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css?family=Times New Roman:300,400|Poppins:300,400,500|Garamond:200,300,400|Cambria:200,300,400|Lato:200,300|Constantia:300,400|Helvetica:200,300,400">
+    <script src="index.js" defer></script>
+    <title>Dr. Sudha Chaudhry</title>
+</head>
+
+<body>
+    <div class="hamburger">
+        <input type="checkbox" name="check" id="check" class="hamburger__check">
+        <label for="check" class="hamburger__label">&nbsp;</label>
+        <div class="hamburger__background">&nbsp;</div>
+        <div class="hamburger__content">
+            <ul class="hamburger__list">
+                <li class="hamburger__list-item"><a href="#profile" class="hamburger__link">Profile</a></li>
+                <li class="hamburger__list-item"><a href="#education" class="hamburger__link">Education</a></li>
+                <li class="hamburger__list-item"><a href="#experience" class="hamburger__link">Experience</a></li>
+                <li class="hamburger__list-item"><a href="#publications" class="hamburger__link">Publications</a></li>
+                <li class="hamburger__list-item"><a href="#book" class="hamburger__link">Presentations</a></li>
+                <li class="hamburger__list-item"><a href="#awards" class="hamburger__link">Awards</a></li>
+                <li class="hamburger__list-item"><a href="#membership" class="hamburger__link">Membership</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="container">
+        <header class="college" id="college">
+            <ul class="college__list">
+                <li class="college__list__item"><a class="college__list__link" href="#profile">Profile</a></li>
+                <li class="college__list__item"><a class="college__list__link" href="#education">Education</a></li>
+                <li class="college__list__item"><a class="college__list__link" href="#experience">Experience</a></li>
+                <li class="college__list__item"><a class="college__list__link" href="#publications">Publications</a></li>
+                <li class="college__list__item"><a class="college__list__link" href="#book">Presentations</a></li>
+                <li class="college__list__item"><a class="college__list__link" href="#awards">Awards</a></li>
+                <li class="college__list__item"><a class="college__list__link" href="#membership">Membership</a></li>
+            </ul>
+        </header>
+
+        <!-- ==================== PROFILE ==================== -->
+        <section class="profile" id="profile">
+            <div class="profile__container">
+                <img src="sudha_chaudhry.jpg" alt="profile picture" class="profile__photo">
+                <p class="profile__name">Dr. Sudha Chaudhry</p>
+                <p class="profile__designation">Associate Professor – Department of Microbiology</p>
+                <a href="Sudha_Chaudhry.pdf" target="_blank" " class="btn">DOWNLOAD CV</a>
+            </div>
+            <div class="contact" id="contact">
+                <div class="contact__details">
+                    <p class="contact__heading">Contact Details</p>
+                    <div class="contact__details-address detail__container"
+                        onclick="window.open('https://maps.app.goo.gl/ADMNLWT6upkvNVmj8', '_blank')">
+                        <svg class="contact__icon">
+                            <use xlink:href="../icomoon/symbol-defs.svg#icon-location-pin"></use>
+                        </svg>
+                        <span class="contact__details__address detail">Ram Lal Anand College, Benito Juarez Road, University of Delhi, New Delhi – 110023</span>
+                    </div>
+                    <div class="contact__details-email detail__container"
+                        onclick="window.open('mailto:sudhachaudhry.mic@rla.du.ac.in','emailWindow')">
+                        <svg class="contact__icon">
+                            <use xlink:href="../icomoon/symbol-defs.svg#icon-mail"></use>
+                        </svg>
+                        <span class="contact__details__email detail">sudhachaudhry.mic@rla.du.ac.in</span>
+                    </div>
+                    <div class="contact__details-phone detail__container">
+                        <svg class="contact__icon">
+                            <use xlink:href="../icomoon/symbol-defs.svg#icon-phone"></use>
+                        </svg>
+                        <span class="contact__details__phone detail">+91-8826140506 &nbsp;|&nbsp; Office: 011-24112557</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== EDUCATION ==================== -->
+        <section class="education" id="education">
+            <div class="education__heading">Education Qualification</div>
+            <div class="education__container">
+                <div class="education__1">
+                    <p class="course">PhD</p>
+                    <p class="year">1989</p>
+                    <p class="institution">University of Delhi</p>
+                </div>
+                <div class="education__1">
+                    <p class="course">MPhil</p>
+                    <p class="year">1984</p>
+                    <p class="institution">University of Delhi</p>
+                </div>
+                <div class="education__1">
+                    <p class="course">MA / MSc</p>
+                    <p class="year">1983</p>
+                    <p class="institution">Miranda House, University of Delhi</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ==================== EXPERIENCE ==================== -->
+        <section class="experience" id="experience">
+            <div class="careerProfile">
+                <h3 class="careerProfile__heading">Career Profile</h3>
+                <ul class="careerProfile__list">
+                    <li><b class="-u--primary">Reader / Associate Professor</b> – Department of Microbiology, Ram Lal Anand College, University of Delhi, 1.11.1998 – till date</li>
+                    <li><b class="-u--primary">Lecturer / Assistant Professor</b> – Ram Lal Anand College, University of Delhi, 7.11.1989 – 1.11.1998</li>
+                </ul>
+            </div>
+            <div class="adminAssignment">
+                <h3 class="adminAssignment__heading">Administration Assignment</h3>
+                <ul class="adminAssignment__list">
+                    <li><b class="-u--primary">Teacher In-charge</b> – Dept. of Microbiology, Ram Lal Anand College (2021–22, 2018–19, 2013–14)</li>
+                    <li><b class="-u--primary">Co-convenor</b> – Admission Committee (2021–22)</li>
+                    <li><b class="-u--primary">Coordinator</b> – Practical Exams (2021–22)</li>
+                    <li><b class="-u--primary">Co-convenor / Member</b> – Sangoshthi (2021–23)</li>
+                    <li><b class="-u--primary">Member</b> – Internal Complaints Committee (2016–21)</li>
+                    <li><b class="-u--primary">Editor</b> – Samdrishti (RLA College Magazine) (2015–16, 2014–15)</li>
+                    <li><b class="-u--primary">Deputy Superintendent</b> – CEC Physics (2012)</li>
+                    <li><b class="-u--primary">Deputy Superintendent of Examinations</b> – (2015–16, 2014–15)</li>
+                    <li><b class="-u--primary">Convenor</b> – Internal Assessment Monitoring Committee (2014–15, 2013–14)</li>
+                    <li><b class="-u--primary">Convenor</b> – Eco Club (2016–17, 2015–16)</li>
+                    <li><b class="-u--primary">Convenor</b> – Art and Culture Society (2014–15)</li>
+                    <li><b class="-u--primary">Convenor</b> – Discipline Committee</li>
+                    <li><b class="-u--primary">Convenor</b> – SPIC MACAY Society (2009–10, 2010–11)</li>
+                    <li><b class="-u--primary">Member</b> – Board of Research Studies, Faculty of Interdisciplinary and Applied Sciences (2011–12, 2004–05)</li>
+                    <li><b class="-u--primary">Member</b> – Committee of Courses and Studies, Dept. of Microbiology, University of Delhi (1995–99)</li>
+                    <li><b class="-u--primary">Member</b> – College Governing Body (2010–11, 1995–96)</li>
+                    <li><b class="-u--primary">Member</b> – Syllabus Revision Committee for Undergraduate Programs in Microbiology, University of Delhi (Annual, Semester, FYUP, CBCS/LOCF, NEP-UGCF 2022)</li>
+                    <li><b class="-u--primary">Member</b> – Board of Examiners for Undergraduate Examination, University of Delhi, since 1989</li>
+                </ul>
+            </div>
+            <div class="specialization">
+                <h3 class="specialization__heading">Areas of Specialization</h3>
+                <ul class="specialization__list">
+                    <li>Biochemistry</li>
+                    <li>Instrumentation</li>
+                    <li>Microbial Physiology and Metabolism</li>
+                    <li>Plant Pathology</li>
+                    <li>Cell Biology</li>
+                </ul>
+            </div>
+            <div class="specialization subjects__taught">
+                <h3 class="specialization__heading">Subjects Taught</h3>
+                <ul class="specialization__list">
+                    <li>Biochemistry</li>
+                    <li>Cell Biology</li>
+                    <li>Microbial Physiology and Metabolism</li>
+                    <li>Plant Pathology</li>
+                    <li>Virology</li>
+                    <li>Microbial Biotechnology</li>
+                    <li>Biotechniques</li>
+                    <li>Microbial Diversity</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- ==================== PUBLICATIONS ==================== -->
+        <section class="publications" id="publications">
+            <h2 class="heading__2 -u-ptop publications__heading">Publications</h2>
+            <ul class="publications__list">
+                <li><b class="-u--primary">Gupta, Rani; Gupta, Namita; Choudhry, Sudha.</b> Electron Transport and Energy Generation: pp 367–389. In <em>Fundamentals of Bacterial Physiology and Metabolism</em> by Rani Gupta and Namita Gupta. 2022. Springer Nature Singapore Pte Ltd. ISBN 978-981-16-0722-6. <a href="https://doi.org/10.1007/978-981-16-0723-3_14" target="_blank" style="color:var(--color-primary);">https://doi.org/10.1007/978-981-16-0723-3_14</a></li>
+                <li><b class="-u--primary">Chaudhry, Sudha and Saxena, R. K.</b> (2008). Chemical Constituents of Microbes – Carbohydrates, Proteins, Lipids and Nucleic Acids. E-book chapter. <a href="http://nsdl.niscair.res.in/123456789/134" target="_blank" style="color:var(--color-primary);">http://nsdl.niscair.res.in/123456789/134</a></li>
+                <li><b class="-u--primary">Chaudhry, Sudha and Mishra, Prashant.</b> (2008). Water, pH and Buffers. E-book chapter. <a href="http://nsdl.niscair.res.in/123456789/673" target="_blank" style="color:var(--color-primary);">http://nsdl.niscair.res.in/123456789/673</a></li>
+                <li><b class="-u--primary">Garg, A.P.; Gandotra, Sudha; Mukerji, K.G. and Pugh, G.J.F.</b> (1985). Ecology of Keratinophilic Fungi. <em>Proc. Indian Acad. Sci.</em>, 94: 149–163. <a href="http://doi.org/10.1007/BF03053134" target="_blank" style="color:var(--color-primary);">http://doi.org/10.1007/BF03053134</a></li>
+            </ul>
+        </section>
+
+        <!-- ==================== PRESENTATIONS ==================== -->
+        <section class="book" id="book">
+            <h2 class="heading__2 -u-ptop book__heading">Conference Organization / Presentations</h2>
+            <ul class="book__list">
+                <li>Member, Organization Committee of National Seminar on Metagenomics and Genome Editing (2020).</li>
+            </ul>
+        </section>
+
+        <!-- ==================== AWARDS ==================== -->
+        <section class="awards" id="awards">
+            <h2 class="awards__heading">Awards and Distinctions</h2>
+            <ul class="awards__list">
+                <li>University Gold Medal for first position in B.Sc. (Hons.) Botany, University of Delhi (1981)</li>
+                <li>Panchanan Maheshwari Memorial Award for first position in M.Sc. Botany, University of Delhi (1983)</li>
+                <li>Jawaharlal Nehru Memorial Fund Prize (1981)</li>
+                <li>Science Merit Awards, University of Delhi (1979, 1981, 1982)</li>
+            </ul>
+        </section>
+
+        <!-- ==================== MEMBERSHIP ==================== -->
+        <section class="awards" id="membership">
+            <h2 class="awards__heading">Membership of Professional Bodies</h2>
+            <ul class="awards__list">
+                <li>Life Member – Association of Microbiologists of India</li>
+            </ul>
+        </section>
+
+    </div>
+</body>
+
+</html>
