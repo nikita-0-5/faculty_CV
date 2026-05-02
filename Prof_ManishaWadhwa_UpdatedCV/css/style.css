@@ -1233,9 +1233,11 @@ th {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 70px;   /* important for vertical centering */
+
   width: 100%;
-  margin-bottom: 10px;
+  height: 80px;
+
+  position: relative; /* 🔥 important */
 }
 
 
@@ -1245,21 +1247,28 @@ th {
   width: 32px;
   height: 32px;
 
+  display: block; /* 🔥 VERY IMPORTANT */
+
+  margin: 0 auto; /* fallback centering */
+
   stroke: white;
-  stroke-width: 3.5;
+  stroke-width: 3;
   fill: none;
 
   stroke-linecap: round;
   stroke-linejoin: round;
-
-  display: block; /* 🔥 important */
 }
-
 .icon,
 .icon svg {
-  filter: none !important;
-  box-shadow: none !important;
-  text-shadow: none !important;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.specialization .icon {
+  position: relative;
+  z-index: 2;
 }
 
 
