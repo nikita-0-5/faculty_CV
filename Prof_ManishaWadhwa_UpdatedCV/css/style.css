@@ -1230,35 +1230,23 @@ th {
 
 
 .icon {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-
+  display: block;
+  position: relative;
   width: 100%;
   height: 80px;
-
-  position: relative; /* 🔥 important */
 }
-
-
-
 
 .drone-icon {
   width: 32px;
   height: 32px;
-
-  display: block; /* 🔥 VERY IMPORTANT */
-
-  margin: 0 auto; /* fallback centering */
-
+  display: block;
   stroke: white;
   stroke-width: 3;
   fill: none;
-
   stroke-linecap: round;
   stroke-linejoin: round;
 }
-.icon,
+
 .icon svg {
   position: absolute;
   top: 50%;
@@ -1266,6 +1254,10 @@ th {
   transform: translate(-50%, -50%);
 }
 
+.specialization .icon {
+  position: relative;
+  z-index: 2;
+}
 .specialization .icon {
   position: relative;
   z-index: 2;
