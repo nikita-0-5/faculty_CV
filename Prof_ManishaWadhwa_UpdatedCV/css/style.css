@@ -1235,6 +1235,7 @@ th {
   justify-content: center;
   height: 70px;   /* important for vertical centering */
   width: 100%;
+  margin-bottom: 10px;
 }
 
 
@@ -1251,9 +1252,8 @@ th {
   stroke-linecap: round;
   stroke-linejoin: round;
 
- 
+  display: block; /* 🔥 important */
 }
-
 
 .icon,
 .icon svg {
