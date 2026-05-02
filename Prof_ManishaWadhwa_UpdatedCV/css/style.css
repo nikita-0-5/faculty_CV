@@ -1251,7 +1251,7 @@ th {
   stroke-linecap: round;
   stroke-linejoin: round;
 
-  transform: translateY(6.5px); /* 🔥 THIS LINE FIXES IT */
+ 
 }
 
 
